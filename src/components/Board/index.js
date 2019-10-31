@@ -1,7 +1,14 @@
 import React from "react";
-
-import { Container } from "./styles";
+import List from "../List";
+import { ContainerBoard } from "./styles";
 
 export default function Board() {
-  return <div />;
+  return (
+    <ContainerBoard>
+      <List />
+      <List />
+      <List />
+      <List />
+    </ContainerBoard>
+  );
 }
